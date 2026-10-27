@@ -264,6 +264,7 @@ public class ProcessManager {
         env.put("OPENSSL_CONF", usrDir.getAbsolutePath() + "/etc/tls/openssl.cnf");
         env.put("HERMES_NODE", usrDir.getAbsolutePath() + "/bin/node");
         env.put("HERMES_TUI_DIR", agentDir.getAbsolutePath() + "/ui-tui");
+        env.put("BROWSER", usrDir.getAbsolutePath() + "/bin/xdg-open");
         env.put("TMPDIR", tmpDir.getAbsolutePath());
         env.put("HOME", homeDir.getAbsolutePath());
 
