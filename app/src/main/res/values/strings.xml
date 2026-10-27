@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hermes Agent</string>
+    <string name="gateway_running">Hermes Gateway Online</string>
+    <string name="gateway_stopped">Hermes Gateway Stopped</string>
+    <string name="gateway_starting">Starting Hermes Daemon…</string>
+    <string name="tab_dashboard">Chat &amp; Dashboard</string>
+    <string name="tab_status">Gateway</string>
+    <string name="tab_logs">Terminal Logs</string>
+    <string name="tab_config">Settings</string>
+</resources>

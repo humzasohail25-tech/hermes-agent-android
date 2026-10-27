@@ -1,0 +1,53 @@
+# Built application files
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.jks
+
+# Large bundle archives (>100MB)
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+app/src/main/assets/hermes_bundle.tar.gz
+build_env/
+release/
+
+# Secrets, credentials & authentication tokens
+.env*
+auth.json
+*.pem
+*.key
+*.p12
+*.crt
+client_secret*.json
+
+# Memories, persistent databases & logs
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+MEMORY.md
+USER.md
+memories/
+logs/
+*.log
+
+# Gradle and build caches
+.gradle/
+build/
+app/build/
+
+# IDE & OS
+.idea/
+.DS_Store
+*.swp
+*.bak
+local.properties
+
+# Unrelated project directories
+perfume-ad-remotion/
+transcribe.swift
+analysis/
