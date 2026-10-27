@@ -11,7 +11,7 @@ import java.util.zip.GZIPInputStream;
 
 public class ProcessManager {
     private static final String TAG = "HermesProcess";
-    private static final String BUNDLE_STAMP = "bundle_v1.0.6.stamp";
+    private static final String BUNDLE_STAMP = "bundle_v1.0.7.stamp";
 
     public interface LogListener {
         void onLogLine(String line);
